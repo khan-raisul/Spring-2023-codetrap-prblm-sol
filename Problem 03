@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+  
+  int a1,a2,a3,a4;//votes obtained by alice from 4 wards
+  int b1,b2,b3,b4;//votes obtained by bob from 4 wards
+  
+  
+  scanf("%d %d %d %d",&a1,&a2,&a3,&a4);
+  scanf("%d %d %d %d",&b1,&b2,&b3,&b4);
+  
+ int tv_a=a1+a2+a3+a4;
+ int tv_b=b1+b2+b3+b4;
+ 
+  if(tv_a>tv_b)
+  {
+    printf("Alice\n");
+  }
+  
+  else if(tv_b>tv_a)
+  {
+    printf("Bob\n");
+  }
+  
+ 
+  return 0;
+}
