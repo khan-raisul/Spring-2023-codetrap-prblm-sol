@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+  
+  int X,T,S;
+   //scheduled time 
+  
+  
+  scanf("%d %d %d",&X,&T,&S);
+  
+ int time=X/S;//Time taken by arif to travel to meeting spot
+  
+  if(time<=T){
+    
+    printf("YES\n");
+  }
+  
+  else{
+    printf("NO\n");
+  }
+  
+  return 0;
+}
