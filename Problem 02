@@ -8,7 +8,7 @@ int main(){
   
   scanf("%d %d %d",&X,&T,&S);
   
- int time=X/S;//Time taken by arif to travel to meeting spot
+ int time=X/S;//Time taken by arif to travel to meeting spot.
   
   if(time<=T){
     
