@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(){
+  
+    
+    int N;
+    
+    scanf("%d",&N);
+    
+    int runperbowl,runperover=0;
+    
+    int TR=0;
+    
+    for(int i=1;i<=N;i++)
+    
+    {
+      runperover=0;
+      
+     for(int j=1;j<=6;j++)
+      
+      {
+        scanf("%d",&runperbowl);
+      runperover+=runperbowl;
+      }
+      
+    printf("%d\n",runperover);
+    
+   TR+=runperover;
+   
+    }
+    
+    
+    
+    printf("The Total Run is:%d\n",TR);
+    
+   
+  return 0;
+}
