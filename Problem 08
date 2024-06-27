@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+  
+ double A;
+
+  scanf("%lf",&A);
+  
+   
+   double X=270*A/(2*A+1);
+   
+   printf("%.2lf\n",X);
+  
+  return 0;
+}
