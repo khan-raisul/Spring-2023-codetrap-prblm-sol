@@ -1,0 +1,24 @@
+int main(){
+  
+  int T;
+  int N;
+  int pos_int;//positive integer
+  
+  scanf("%d",&T);
+  for(int i=1;i<=T;i++){
+    
+    scanf("%d",&N);
+    
+   
+     if(N%3==0) 
+     {    
+     pos_int=N;
+     }
+     else {
+       pos_int=N*3;
+     }
+   
+   printf("Case %d : %d\n",i,pos_int);
+  }
+  return 0;
+}
