@@ -7,6 +7,43 @@ int main(){
     
     scanf("%d",&N);
     
+    int b1,b2,b3,b4,b5,b6;
+    
+    int runperbowl,runperover;
+    
+    int TR=0;
+    
+    for(int i=1;i<=N;i++)
+    
+    {
+      runperover=0;
+      scanf("%d %d %d %d %d %d",&b1,&b2,&b3,&b4,&b5,&b6);
+      runperover=b1+b2+b3+b4+b5+b6;
+      
+      printf("%d\n",runperover);
+      
+      TR+=runperover;
+    }
+
+    
+   printf("The Total Run is: %d\n",TR);
+    
+   
+  return 0;
+}
+
+
+
+//Alternative Solution
+#include <stdio.h>
+
+int main(){
+  
+    
+    int N;
+    
+    scanf("%d",&N);
+    
     int runperbowl,runperover=0;
     
     int TR=0;
@@ -29,9 +66,8 @@ int main(){
    
     }
     
-    
-    
-    printf("The Total Run is:%d\n",TR);
+   
+    printf("The Total Run is: %d\n",TR);
     
    
   return 0;
